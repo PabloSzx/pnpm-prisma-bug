@@ -60,3 +60,7 @@ packages/db prepare: Please try to install it by hand with npm install @prisma/c
 packages/db prepare: Failed
  ERROR  Command failed with exit code 1.
 ```
+
+And after running `pnpm i` again, for some reason a package-lock.json appears, breaking everything:
+
+![npm-lock-created](https://i.imgur.com/OLukaoz.png)
