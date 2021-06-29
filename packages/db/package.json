@@ -1,5 +1,14 @@
 {
   "name": "db-example",
   "version": "0.0.1",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "prepare": "prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.26.0"
+  },
+  "devDependencies": {
+    "prisma": "^2.26.0"
+  }
 }
