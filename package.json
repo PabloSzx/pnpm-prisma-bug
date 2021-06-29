@@ -1,5 +1,11 @@
 {
   "name": "new-pnpm-prisma",
   "version": "0.0.1",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf \"**/node_modules\""
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  }
 }
